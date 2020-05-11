@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practica Mapbox</string>
+    <string name="route_can_not_be_displayed">No se puede desplegar la ruta</string>
+    <string name="route_call_failure">Verifique su conexion a Internet</string>
+    <string name="user_location_permission_explanation">Necesitamos que otorgue permisos para usar la app</string>
+    <string name="user_location_permission_not_granted">El usuario no ha aceptado los permisos</string>
+    <string name="access_token">pk.eyJ1IjoicmF5Z2d6ejEiLCJhIjoiY2thMWljNnhiMDB2aDNsbHd3cHZyc21odiJ9.1wnIhUc0l-yPCXYDNfnv_A</string>
+    <string name="textoAyuda">Para trazar sus rutas, haga clic para el punto origen y clic largo para el punto de destino</string>
+</resources>

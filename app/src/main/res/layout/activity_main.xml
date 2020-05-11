@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="Practica 5 - Mapas"
+            app:subtitle="Mapas con SDK Mapbox"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        app:fab_labelsPosition="left"
+        app:fab_addButtonColorNormal="@color/colorPrimaryDark"
+        app:fab_addButtonColorPressed="@color/colorPrimary"
+        fab:fab_labelStyle="@style/menu_labels_style" >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCamara"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:fab_icon="@drawable/ic_directions"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fabSize="mini"
+            app:fab_title="Ir al TEC" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCasa"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:fab_icon="@drawable/ic_home"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fabSize="mini"
+            app:fab_title="Ir a casa Ray" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabRealtime"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:fabSize="mini"
+            app:fab_icon="@drawable/ic_my_location"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_title="Localización Tiempo Real"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabRuta"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:fabSize="mini"
+            app:fab_icon="@drawable/ic_linear_scale"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_title="Ejemplo de Rutas"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

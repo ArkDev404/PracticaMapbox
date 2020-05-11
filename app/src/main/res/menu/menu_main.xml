@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ray.mapy.MainActivity">
+    <item
+        android:id="@+id/thm_1"
+        android:orderInCategory="100"
+        android:title="Mapa Claro"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thm_2"
+        android:orderInCategory="100"
+        android:title="Mapa Oscuro"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thm_3"
+        android:orderInCategory="100"
+        android:title="Mapa Trafico-Dia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thm_4"
+        android:orderInCategory="100"
+        android:title="Mapa Trafico-Noche"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thm_6"
+        android:orderInCategory="100"
+        android:title="Mapa Satelital"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thm_7"
+        android:orderInCategory="100"
+        android:title="Mapa Satelital-Calles"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/thm_8"
+        android:orderInCategory="100"
+        android:title="Mapa Calles"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context=".EjemploRura">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="23.711179"
+        mapbox:mapbox_cameraTargetLng="-100.424445"
+        mapbox:mapbox_cameraZoom="10"/>
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_help"
+        android:layout_width="wrap_content"
+        app:fab_icon="@drawable/ic_help"
+        app:fabSize="auto"
+        app:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
